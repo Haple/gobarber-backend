@@ -133,6 +133,12 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
     docker run --name mongo-gobarber -p 27017:27017 -d -t mongo
     ```
 
+  - ### Install Redis
+    Using docker, run the following command to install Redis:
+    ```
+    docker run --name redis-gobarber -p 6379:6379 -d -t redis:alpine
+    ```
+
 
 ## Configure
 
