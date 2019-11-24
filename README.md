@@ -158,7 +158,7 @@ Next step, go to debug tab on VS Code (ctrl + shift + D) and start debugging.
 ## Root config files
 
   ### .editorconfig
-  Even whether your team of devs work with other code editors than not VS Code they this file preserve some code style configs.
+  Even whether your team of devs work with other code editors than not VS Code this file preserve some code style configs.
 
   ### .eslintrc.js
   Used together with ESLint VS Code extension. ESLint statically analyzes your Javascript code to quickly find problems, which can be automatically fixed in most cases. Also used to force a code style in a dev team.
