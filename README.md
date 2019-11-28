@@ -58,11 +58,11 @@ This project was developed at the [RocketSeat GoStack Bootcamp](https://rocketse
 -  [DotEnv](https://www.npmjs.com/package/dotenv)
 -  [MongoDB](https://www.mongodb.com/)
 -  [Mongoose](https://mongoosejs.com/)
-<!-- -  [Youch](https://www.npmjs.com/package/youch) -->
-<!-- -  [Sentry](https://sentry.io/) -->
-<!-- -  [Bee Queue](https://www.npmjs.com/package/bcrypt) -->
-<!-- -  [Nodemailer](https://nodemailer.com/about/) -->
-<!-- -  [Redis](https://redis.io/) -->
+-  [Youch](https://www.npmjs.com/package/youch)
+-  [Sentry](https://sentry.io/)
+-  [Bee Queue](https://www.npmjs.com/package/bcrypt)
+-  [Nodemailer](https://nodemailer.com/about/)
+-  [Redis](https://redis.io/)
 
 ---
 ## Requirements
@@ -120,7 +120,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
   - ### Install PostgreSQL
     Using docker, run the following command to install PostgreSQL:
     ```
-    docker run -e 'POSTGRES_PASSWORD=UmaSenhaMuitoBoa' \
+    $ docker run -e 'POSTGRES_PASSWORD=UmaSenhaMuitoBoa' \
     -e 'POSTGRES_DB=gobarber'\
     -p 5432:5432 --name gobarber-db \
     -d postgres
@@ -130,13 +130,13 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
   - ### Install MongoDB
     Using docker, run the following command to install MongoDB:
     ```
-    docker run --name mongo-gobarber -p 27017:27017 -d -t mongo
+    $ docker run --name mongo-gobarber -p 27017:27017 -d -t mongo
     ```
 
   - ### Install Redis
     Using docker, run the following command to install Redis:
     ```
-    docker run --name redis-gobarber -p 6379:6379 -d -t redis:alpine
+    $ docker run --name redis-gobarber -p 6379:6379 -d -t redis:alpine
     ```
 
 
@@ -152,6 +152,7 @@ Open `./src/config/database.js` then edit it with your database settings. You wi
 ## Running
 
     $ yarn dev
+    $ yarn queue
 
 ## Debug
 First run the following:
