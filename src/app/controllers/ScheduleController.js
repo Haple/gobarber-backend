@@ -12,7 +12,7 @@ class ScheduleController {
 
     if (!checkUserProvider) {
       return res.status(401).json({
-        error: 'User is noa a provider',
+        error: 'User is not a provider',
       });
     }
 
